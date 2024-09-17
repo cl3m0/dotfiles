@@ -1,0 +1,12 @@
+.venv
+.envrc
+.pytest_cache
+.mypy_cache
+
+*.pyc
+*.orig
+*.egg-info
+
+__pycache__
+
+devenv.yaml
