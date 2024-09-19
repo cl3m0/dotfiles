@@ -1,3 +1,4 @@
+# Tools
 brew "bottom"  # like top - but modern
 #brew "bash"
 brew "cmake"
@@ -9,15 +10,15 @@ brew "powerlevel10k"
 brew "ripgrep"
 brew "tree"
 brew "xh" # like httpie
-# Languages
+# Golang
 brew "go"
 brew "go@1.21"
 brew "golangci-lint"
-## Python
+# Python
 brew "black"
 brew "python"
 brew "uv"  # fast pip-tools replacement
-## Rust
+# Rust
 brew "cargo-watch"
 brew "rustup"
 # JS
@@ -50,7 +51,11 @@ brew "aws-cdk"
 # DB
 brew "mongosh"
 
-# Visual Studio Code
+# Casks
+cask "iterm2"
+cask "raycast"
+
+# Visual Studio Code Extensions
 # 'vscode --install-extension'
 vscode "dsznajder.es7-react-js-snippets"
 vscode "golang.go"
