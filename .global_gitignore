@@ -1,3 +1,7 @@
+.DS_Store
+._.DS_Store
+*.sw[op]
+
 .venv
 .envrc
 .pytest_cache
@@ -10,3 +14,4 @@
 __pycache__
 
 devenv.yaml
+

@@ -1,0 +1,9 @@
+alias ll="ls -Ahl"
+
+# git
+alias gcof='git checkout $(git for-each-ref --sort=-committerdate refs/heads/ | sed "s|.*heads/||" | fzf)'
+
+# k9s
+alias k9s-dev='k9s --kubeconfig /home/clemens/.kube/ionos-dev00-current.json --cluster dev00'
+alias k9s-ci='k9s --kubeconfig /home/clemens/.kube/ionos-ci00-current.json --cluster ci00'
+alias k9s-pro='k9s --kubeconfig /home/clemens/.kube/ionos-pro00-current.json --cluster pro00'
