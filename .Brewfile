@@ -4,7 +4,11 @@ brew "bottom"  # like top - but modern
 brew "cmake"
 brew "curl"
 brew "direnv"
+brew "fzf"
+brew "graphviz"
 brew "jq"
+tap "kcl-lang/tap"
+brew "kcl"
 brew "make"
 brew "powerlevel10k"
 brew "ripgrep"
@@ -21,11 +25,14 @@ brew "uv"  # fast pip-tools replacement
 # Rust
 brew "cargo-watch"
 brew "rustup"
+# Java
+brew "openjdk@17"
 # JS
+brew "yarn"
 brew "deno"
 brew "fnm"  # like nvm but faster
 brew "node"
-#brew "nvm"
+brew "nvm"
 brew "pnpm"
 # Docker
 brew "dive"
@@ -37,8 +44,10 @@ brew "helm"
 #brew "derailed/k9s/k9s"
 brew "k9s"
 brew "kind"
+brew "cloudflared"
 brew "kubernetes-cli"
 brew "tilt"
+brew "hashicorp/tap/terraform"
 # Github helper
 brew "act"  # run github actions locally
 brew "actionlint"
@@ -57,11 +66,18 @@ cask "raycast"
 
 # Visual Studio Code Extensions
 # 'vscode --install-extension'
-vscode "dsznajder.es7-react-js-snippets"
-vscode "golang.go"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.python"
 vscode "ms-python.debugpy"
-
+vscode "charliermarsh.ruff"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "dbaeumer.vscode-eslint"
+vscode "golang.go"
+vscode "kcl.kcl-vscode-extension"
+vscode "mathiasfrohlich.kotlin"
+vscode "yzhang.markdown-all-in-one"
+vscode "jebbs.plantuml"
+vscode "mebrahtom.plantumlpreviewer"
+vscode "esbenp.prettier-vscode"
 
 
