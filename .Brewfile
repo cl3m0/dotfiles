@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "kcl-lang/tap"
 tap "mongodb/brew"
+tap "stackitcloud/tap"
 brew "act"
 brew "actionlint"
 brew "ca-certificates"
@@ -71,13 +72,11 @@ cask "tableplus"
 cask "visual-studio-code"
 cask "warp"
 cask "whatsapp"
-mas "Bitwarden", id: 1352778147
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Slack", id: 803453959
 vscode "1yib.rust-bundle"
 vscode "arahata.linter-actionlint"
 vscode "asciidoctor.asciidoctor-vscode"
@@ -120,3 +119,6 @@ vscode "tamasfe.even-better-toml"
 vscode "timonwong.shellcheck"
 vscode "vadimcn.vscode-lldb"
 vscode "yzhang.markdown-all-in-one"
+cask "slack"
+cask "stackit"
+brew "dust"
